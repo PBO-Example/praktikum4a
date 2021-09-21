@@ -36,9 +36,9 @@ Subclass Ayam, Anjing dan Kucing mewarisi **semua atribut dan method yang tidak 
  Perhatikan hasil eksekusi program Driver.java, suara Garfield masih salah. Perbaiki kode program Driver.java, suapaya Garfield mengeluarkan suara kucing.
  
  ***Modul 1.b*** Misalkan ada kebutuhan untuk menyimpan posisi kucing, sehingga atributnya perlu ditambah dengan variabel bertipe Point yang akan menyimpan data posisi. Method bergerak yang diwarisi oleh kelas Kucing menjadi tidak sesuai karena ada kebutuhan untuk merekam pergerakan kucing pada koordinat x dan y. Oleh karena itu, kelas Kucing diubah dengan menambahkan atribut posisi, mengupdate constructor, menambah setter/getter untuk posisi, dan **menulis ulang/mengoverride** method bergerak. Definisi method bergerak yang dibutuhkan kelas Kucing adalah sebagai berikut:
-    bergerak (jmlLangkah:int, arah:string) : string
-	jmlLangkah menyatakan jumlah langkah
-	arah salah satu dari nilai maju, mundur, kiri atau kanan. Arah maju atau mundur akan mengupdate posisi pada sumbu ordinat, sementara kiri dan kanan akan mengupdate posisi pada sumbu absis.
+	>bergerak (jmlLangkah:int, arah:string) : string
+	>parameter jmlLangkah menyatakan jumlah langkah
+	>parameter arah menerima salah satu dari nilai maju, mundur, kiri atau kanan. Arah maju atau mundur akan mengupdate posisi pada sumbu ordinat, sementara kiri dan kanan akan mengupdate posisi pada sumbu absis.
 Ubah kelas Kucing.java sesuai dengan kode program berikut ini (kotak merah adalah bagian yang diubah/ditambah pada kelas Kucing). Salin ulang kelas Driver yang sudah dimodifikasi untuk memanggil kelas Kucing yang baru.
 
 >Kelas Kucing.java
