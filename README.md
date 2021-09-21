@@ -17,6 +17,9 @@ Subclass Ayam, Anjing dan Kucing mewarisi **semua atribut dan method yang tidak 
 
 Modul 1.a Berikut ini adalah kode program hasil implementasi diagram kelas di atas. Tulis ulang semua kode program berikut ini dan simpan di dalam folder src\main\java. Jika penulisan anda benar maka anda akan mendapat nilai full untuk testDriver.
 
+>Kelas Binatang.java
+![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/902511ddcc61fe078d06e1cbc20fcd6a)
+![Image of Gbr5.2.b](https://apipuro.del.ac.id/v1/file/4c22f9e32cde23817646d9090b3dd58a)
 
 
 
