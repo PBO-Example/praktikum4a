@@ -64,10 +64,8 @@ Kelas Shape lengkapi dengan konstruktor dengan parameter, setter dan getter. Sem
 * Konstruktor tanpa parameter pada Cirlcle akan membentuk objek Circle dengan posisi titik tengah (0,0) dan diameter 1.
 * Konstruktor tanpa parameter pada Rectangle akan membentuk objek Rectangle dengan posisi (0,0) dan (0,0).
 * Setiap konstruktor pada Circle dan Rectangle memberi nama objek Circle atau Rectangle secara langsung bukan dari variabel parameter konstruktor.
-
-	> Method getArea() : untuk menghitung luas Circle atau Rectangle.
-	
-	> Method getCircle() : untuk menghitung keliling Circle atau Rectangle.
+* Method getArea() : untuk menghitung luas Circle atau Rectangle.
+* Method getCircle() : untuk menghitung keliling Circle atau Rectangle.
 	
 Modul 2 ini dilengkapi dengan sejumlah test sebagai berikut:
 * ***TestShape.testKonstrukturDenganParameter*** akan menguji konstruktor dengan parameter pada kelas Shape.
