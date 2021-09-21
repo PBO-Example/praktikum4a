@@ -1,14 +1,23 @@
 # Praktikum5
 ## Pengantar
-**Inheritance** adalah konsep di mana kelas anak(sub class/child class/derived class) mewarisi semua atribut dan method yang public/protected dari kelas bapak (superclass/parent class/base class).
+**Inheritance** adalah konsep di mana kelas anak (sub class/child class/derived class) mewarisi semua atribut dan method yang public/protected dari kelas bapak (superclass/parent class/base class).
 Atribut atau method yang diwarisi dari kelas bapak, tidak ditulis di dalam kelas anak, tapi objek dari kelas anak memiliki dan dapat memanggil method yang diwariskan oleh bapak.
-
-Berikut adalah diagram kelas Binatang yang sudah saya jelaskan di video pembelajaran pada sesi asinkronus minggu ini.
-![Image of Gbr5.1](https://apipuro.del.ac.id/v1/file/9a9c702b564eb5b1662257297da13baf)
 
 ## Petunjuk Praktikum
 Baca instruksi yang diberikan dengan baik.
 >File-file berikut ini bisa anda temukan di folder **src\main\java\praktikum4**.
+
+#### Modul 1 **[Poin 70]** Kelas Binatang dan turunannya serta kelas Driver.
+Berikut adalah diagram kelas Binatang yang sudah saya jelaskan di video pembelajaran pada sesi asinkronus minggu ini.
+
+![Image of Gbr5.1](https://apipuro.del.ac.id/v1/file/9c99743a4040f937b3e52d5561cb7b6d)
+
+Pada kelas diagram di atas, dapat dilihat adanya konsep inheritance/pewarisan (ditandai dengan tanda panah tertutup dari subclass ke superclass). Kelas Binatang menjadi superclass, sementara kelas Ayam, Anjing dan Kucing adalah subclass dari kelas Binatang. 
+Subclass Ayam, Anjing dan Kucing mewarisi **semua atribut dan method yang tidak diberi modifier private** dari kelas Binatang.
+
+Modul 1.a Berikut ini adalah kode program hasil implementasi diagram kelas di atas. Tulis ulang semua kode program berikut ini dan simpan di dalam folder src\main\java. Jika penulisan anda benar maka anda akan mendapat nilai full untuk testDriver.
+
+
 
 
 #### Soal 2 **[Poin 70]** Kelas Shape dan turunannya serta ShapeDriver
