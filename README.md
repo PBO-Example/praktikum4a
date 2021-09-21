@@ -15,23 +15,38 @@ Berikut adalah diagram kelas Binatang yang sudah saya jelaskan di video pembelaj
 Pada kelas diagram di atas, dapat dilihat adanya konsep inheritance/pewarisan (ditandai dengan tanda panah tertutup dari subclass ke superclass). Kelas Binatang menjadi superclass, sementara kelas Ayam, Anjing dan Kucing adalah subclass dari kelas Binatang. 
 Subclass Ayam, Anjing dan Kucing mewarisi **semua atribut dan method yang tidak diberi modifier private** dari kelas Binatang.
 
-Modul 1.a Berikut ini adalah kode program hasil implementasi diagram kelas di atas. Tulis ulang semua kode program berikut ini dan simpan di dalam folder src\main\java. Jika penulisan anda benar maka anda akan mendapat nilai full untuk testDriver.
+***Modul 1.a*** Berikut ini adalah kode program hasil implementasi diagram kelas di atas. Tulis ulang semua kode program berikut ini dan simpan di dalam folder src\main\java. Jika penulisan anda benar maka anda akan mendapat nilai full untuk testDriver.
 
->Kelas Binatang.java
+>**Kelas Binatang.java**
 ![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/902511ddcc61fe078d06e1cbc20fcd6a)
 ![Image of Gbr5.2.b](https://apipuro.del.ac.id/v1/file/4c22f9e32cde23817646d9090b3dd58a)
 
->Kelas Anjing.java
+>**Kelas Anjing.java**
 ![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/493d5c82d5664fdc057a47b6ae95140b)
 
->Kelas Ayam.java
-![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/dc2fda8aa0bc155503433aa713a679d6)
+>**Kelas Ayam.java**
+![Image of Gbr5.2.b](https://apipuro.del.ac.id/v1/file/dc2fda8aa0bc155503433aa713a679d6)
+
+>**Kelas Kucing.java**
+![Image of Gbr5.2.c](https://apipuro.del.ac.id/v1/file/3444b2c418ee93ce6395024c8228d13c)
+
+>**Kelas Driver.java**
+![Image of Gbr5.2.d](https://apipuro.del.ac.id/v1/file/8a2c13a8e46477491f8de7ac4a7a1043)
+ 
+ Perhatikan hasil eksekusi program Driver.java, suara Garfield masih salah. Perbaiki kode program Driver.java, suapaya Garfield mengeluarkan suara kucing.
+ 
+ ***Modul 1.b*** Misalkan ada kebutuhan untuk menyimpan posisi kucing, sehingga atributnya perlu ditambah dengan variabel bertipe Point yang akan menyimpan data posisi. Method bergerak yang diwarisi oleh kelas Kucing menjadi tidak sesuai karena ada kebutuhan untuk merekam pergerakan kucing pada koordinat x dan y. Oleh karena itu, kelas Kucing diubah dengan menambahkan atribut posisi, mengupdate constructor, menambah setter/getter untuk posisi, dan **menulis ulang/mengoverride** method bergerak. Definisi method bergerak yang dibutuhkan kelas Kucing adalah sebagai berikut:
+    bergerak (jmlLangkah:int, arah:string) : string
+	jmlLangkah menyatakan jumlah langkah
+	arah salah satu dari nilai maju, mundur, kiri atau kanan. Arah maju atau mundur akan mengupdate posisi pada sumbu ordinat, sementara kiri dan kanan akan mengupdate posisi pada sumbu absis.
+Ubah kelas Kucing.java sesuai dengan kode program berikut ini (kotak merah adalah bagian yang diubah/ditambah pada kelas Kucing). Salin ulang kelas Driver yang sudah dimodifikasi untuk memanggil kelas Kucing yang baru.
 
 >Kelas Kucing.java
-![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/3444b2c418ee93ce6395024c8228d13c)
+![Image of Gbr5.2.e](https://apipuro.del.ac.id/v1/file/c95ec885abb54b46de048c1cde716123)
+![Image of Gbr5.2.f](https://apipuro.del.ac.id/v1/file/87e2babdab4ab6b7fdb576f454638e63)
 
 >Kelas Driver.java
-![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/2eeb24bff1f20c28978dd050491c48a9)
+![Image of Gbr5.2.g](https://apipuro.del.ac.id/v1/file/739a7041d23df62be23ce7d27ee86697)
 
 
 #### Soal 2 **[Poin 70]** Kelas Shape dan turunannya serta ShapeDriver
