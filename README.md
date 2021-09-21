@@ -21,6 +21,17 @@ Modul 1.a Berikut ini adalah kode program hasil implementasi diagram kelas di at
 ![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/902511ddcc61fe078d06e1cbc20fcd6a)
 ![Image of Gbr5.2.b](https://apipuro.del.ac.id/v1/file/4c22f9e32cde23817646d9090b3dd58a)
 
+>Kelas Anjing.java
+![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/493d5c82d5664fdc057a47b6ae95140b)
+
+>Kelas Ayam.java
+![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/dc2fda8aa0bc155503433aa713a679d6)
+
+>Kelas Kucing.java
+![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/3444b2c418ee93ce6395024c8228d13c)
+
+>Kelas Driver.java
+![Image of Gbr5.2.a](https://apipuro.del.ac.id/v1/file/2eeb24bff1f20c28978dd050491c48a9)
 
 
 #### Soal 2 **[Poin 70]** Kelas Shape dan turunannya serta ShapeDriver
