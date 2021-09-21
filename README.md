@@ -1,26 +1,17 @@
-# Praktikum4
+# Praktikum5
+## Pengantar
+**Inheritance** adalah konsep di mana kelas anak(sub class/child class/derived class) mewarisi semua atribut dan method yang public/protected dari kelas bapak (superclass/parent class/base class).
+Atribut atau method yang diwarisi dari kelas bapak, tidak ditulis di dalam kelas anak, tapi objek dari kelas anak memiliki dan dapat memanggil method yang diwariskan oleh bapak.
+
+Berikut adalah diagram kelas Binatang yang sudah saya jelaskan di video pembelajaran pada sesi asinkronus minggu ini.
+![Image of Gbr5.1](https://apipuro.del.ac.id/v1/file/9a9c702b564eb5b1662257297da13baf)
+
+## Petunjuk Praktikum
 Baca instruksi yang diberikan dengan baik.
 >File-file berikut ini bisa anda temukan di folder **src\main\java\praktikum4**.
 
-## Soal 1 **[Poin 30]**  Kelas MenuItem dan Kelas MenuItemDriver
-Lengkapi program MenuItem.java dan MenuItemDriver.java sesuai dengan kelas diagram berikut ini.
-![Image of Soal1](http://api.puro.del.ac.id/v1/file/c9aa132f740b9aa1866e7bb7096c176e)
-Lengkapi Kelas MenuItem dengan konstruktor (konstruktor tanpa parameter dan konstruktor dengan paramter).
-Konstruktor tanpa parameter pada kelas MenuItem, menginisialisasi objak MenuItem dengan menu favorit yang banyak dipesan yaitu: Nasi Goreng Seafood, harganya 25000 dan jumlahnya 1 porsi.
 
-Soal 1 ini dilengkapi dengan sejumlah test sebagai berikut:
-* ***testCheckKonstruktorI*** akan menguji method checkKonstruktorI() pada kelas MenuItemDriver yang akan menginstasiasi kelas MenuItem menggunakan konstruktor tanpa parameter.
-* ***testCheckKonstruktorII*** akan menguji method checkKonstruktorII() pada kelas MenuItemDriver yang akan menginstasiasi kelas MenuItem menggunakan konstruktor dengan parameter.
-* ***testBuatPesanan*** akan menguji method buatPesanan() pada kelas MenuItem.
-* ***testCallBuatPesanan*** akan menguji method callBuatPesanan() pada kelas MenuItemDriver yang akan memanggil method buatPesanan() dari suatu objek MenuItem.
-* ***testCallToString*** akan menguji method callToString() pada kelas MenuItemDriver yang akan memanggil method toString() dari suatu objek MenuItem.
-* ***testCallGetNBInstance*** akan menguji method callGetNBInstance() pada kelas MenuItemDriver yang akan memanggil method getNBInstance() dari suatu objek MenuItem.
-
-Contoh keluaran dari soal 1 (MenuItemDriver.java) adalah sebagai berikut:
-![Image of Soal2](http://api.puro.del.ac.id/v1/file/016298c1fa36c96adf17c4c51820a903)
-
-
-## Soal 2 **[Poin 70]** Kelas Shape dan turunannya serta ShapeDriver
+#### Soal 2 **[Poin 70]** Kelas Shape dan turunannya serta ShapeDriver
 Lengkapi program Shape.java, Circle.java, Rectangle.java sesuai dengan kelas diagram berikut.
 ![Image of Soal2](http://api.puro.del.ac.id/v1/file/1a67003e6dac5fc3cb2976e7e8641a12)
 Kelas Shape lengkapi dengan konstruktor dengan parameter, setter dan getter. Sementara untuk Circle dan Rectangle lengkapi dengan konstruktor, kopi konstruktor, setter, dan getter.
