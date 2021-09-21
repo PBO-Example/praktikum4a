@@ -89,11 +89,10 @@ Modul 2 ini dilengkapi dengan sejumlah test sebagai berikut:
 * ***TestRectangle.testGetArea*** akan menguji method getArea() pada kelas Rectangle.
 * ***TestRectangle.testGetKeliling*** akan menguji method getCircumference() pada kelas Rectangle.
 * ***TestRectangle.testToString*** akan menguji method toString() pada kelas Rectangle.
+* ***TestShapeDriver.testCreateRectangle*** akan menguji method createRectangle() pada kelas ShapeDriver yang akan menginstasiasi kelas Rectangle menggunakan konstruktor dengan parameter.
+* ***TestShapeDriver.testCreateCircle*** akan menguji method createCircle() pada kelas ShapeDriver yang akan menginstasiasi kelas Circle menggunakan konstruktor dengan parameter.
 
-TestShapeDriver.testCreateRectangle akan menguji method createRectangle() pada kelas ShapeDriver yang akan menginstasiasi kelas Rectangle menggunakan konstruktor dengan parameter.
-TestShapeDriver.testCreateCircle akan menguji method createCircle() pada kelas ShapeDriver yang akan menginstasiasi kelas Circle menggunakan konstruktor dengan parameter.
-
-Contoh keluaran dari soal 1 (MenuItemDriver.java) adalah sebagai berikut:
+Contoh keluaran dari Modul 2 (ShapeDriver.java) adalah sebagai berikut:
 ![Image of Soal2](http://api.puro.del.ac.id/v1/file/c574cd8813db9cf404c405927a73d5fc)
 
 
